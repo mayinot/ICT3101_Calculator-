@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maymadiaung/Projects/ICT3101_Calculator/ICT3101_Calculator_Lab2/ICT3101_Calculator_Lab2.csproj": {}
+  },
+  "projects": {
+    "/Users/maymadiaung/Projects/ICT3101_Calculator/ICT3101_Calculator_Lab2/ICT3101_Calculator_Lab2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maymadiaung/Projects/ICT3101_Calculator/ICT3101_Calculator_Lab2/ICT3101_Calculator_Lab2.csproj",
+        "projectName": "ICT3101_Calculator_Lab2",
+        "projectPath": "/Users/maymadiaung/Projects/ICT3101_Calculator/ICT3101_Calculator_Lab2/ICT3101_Calculator_Lab2.csproj",
+        "packagesPath": "/Users/maymadiaung/.nuget/packages/",
+        "outputPath": "/Users/maymadiaung/Projects/ICT3101_Calculator/ICT3101_Calculator_Lab2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maymadiaung/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
