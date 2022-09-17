@@ -16,9 +16,9 @@ public class CalculatorTests
     public void Add_WhenAddingTwoNumbers_ResultEqualToSum()
     {
         // Act
-        double result = _calculator.Add(10, 20);
+        double result = _calculator.Add(20, 30);
         // Assert
-        Assert.That(result, Is.EqualTo(30));
+        Assert.That(result, Is.EqualTo(50));
     }
 
     [Test]
