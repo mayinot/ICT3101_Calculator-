@@ -21,8 +21,8 @@ jobs:
     runs-on: macos-latest
 
     defaults:
-    run:
-      working-directory:  ICT3101_Calculator_Lab2/
+      run: 
+        working-directory: ICT3101_Calculator_Lab2/
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
